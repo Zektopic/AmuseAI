@@ -19,7 +19,18 @@
         MinWidth="1280"
         MinHeight="720"
         mc:Ignorable="d"
-        x:Name="UI">
+        x:Name="UI"
+        Opacity="0">
+    <CommonControls:WindowMainBase.Triggers>
+        <EventTrigger RoutedEvent="Window.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.8" />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </CommonControls:WindowMainBase.Triggers>
+
     <DockPanel DataContext="{Binding ElementName=UI}">
 
         <DockPanel.LayoutTransform>

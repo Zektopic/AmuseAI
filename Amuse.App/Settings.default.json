@@ -33,7 +33,7 @@
       "Backend": "HuggingFace",
       "Environment": "cuda-130",
       "HostVersion": "3.14",
-      "Version": 18,
+      "Version": 19,
       "IsDefault": true,
       "Status": "Create",
       "Variables": {
@@ -47,17 +47,17 @@
         "torchvision==0.26.0+cu130",
         "typing==3.7.4.3",
         "wheel==0.48.0",
-        "transformers==5.17.0",
+        "transformers==5.19.0",
         "accelerate==1.15.0",
-        "diffusers==0.40.0",
-        "protobuf==7.36.1",
+        "diffusers==0.41.0",
+        "protobuf==7.36.2",
         "sentencepiece==0.2.2",
         "ftfy==6.3.1",
         "scipy==1.18.1",
-        "peft==0.20.0",
+        "peft==0.21.2",
         "torchsde==0.2.6",
         "gguf==0.19.0",
-        "av==18.1.0",
+        "av==19.0.1",
         "soundfile==0.14.0",
         "torchao==0.18.0",
         "optimum-quanto==0.2.7",
@@ -72,7 +72,7 @@
       "Backend": "HuggingFace",
       "Environment": "rocm-721",
       "HostVersion": "3.12",
-      "Version": 18,
+      "Version": 19,
       "Status": "Create",
       "IsDefault": true,
       "Variables": {
@@ -90,17 +90,17 @@
         "https://repo.radeon.com/rocm/windows/rocm-rel-7.2.1/torchvision-0.24.1%2Brocm7.2.1-cp312-cp312-win_amd64.whl",
         "typing==3.7.4.3",
         "wheel==0.48.0",
-        "transformers==5.17.0",
+        "transformers==5.19.0",
         "accelerate==1.15.0",
-        "diffusers==0.40.0",
-        "protobuf==7.36.1",
+        "diffusers==0.41.0",
+        "protobuf==7.36.2",
         "sentencepiece==0.2.2",
         "ftfy==6.3.1",
         "scipy==1.18.1",
-        "peft==0.20.0",
+        "peft==0.21.2",
         "torchsde==0.2.6",
         "gguf==0.19.0",
-        "av==18.1.0",
+        "av==19.0.1",
         "soundfile==0.14.0",
         "optimum-quanto==0.2.7",
         "bitsandbytes==0.50.2"
@@ -114,11 +114,11 @@
       "Backend": "StableDiffusionCpp",
       "Environment": "vulkan",
       "HostVersion": "Vulkan",
-      "Version": 929,
+      "Version": 956,
       "Status": "Create",
       "Variables": {},
       "Requirements": [
-        "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-929-3f8527a/sd-master-3f8527a-bin-win-vulkan-x64.zip"
+        "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-956-1b0ba10/sd-master-1b0ba10-bin-win-vulkan-x64.zip"
       ]
     },
     {
@@ -129,12 +129,12 @@
       "Backend": "StableDiffusionCpp",
       "Environment": "vulkan",
       "HostVersion": "Vulkan",
-      "Version": 929,
+      "Version": 956,
       "Status": "Create",
       "IsDefault": true,
       "Variables": {},
       "Requirements": [
-        "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-929-3f8527a/sd-master-3f8527a-bin-win-vulkan-x64.zip"
+        "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-956-1b0ba10/sd-master-1b0ba10-bin-win-vulkan-x64.zip"
       ]
     },
     {
@@ -145,12 +145,12 @@
       "Backend": "StableDiffusionCpp",
       "Environment": "vulkan",
       "HostVersion": "Vulkan",
-      "Version": 929,
+      "Version": 956,
       "Status": "Create",
       "IsDefault": true,
       "Variables": {},
       "Requirements": [
-        "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-929-3f8527a/sd-master-3f8527a-bin-win-vulkan-x64.zip"
+        "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-956-1b0ba10/sd-master-1b0ba10-bin-win-vulkan-x64.zip"
       ]
     },
     {
@@ -161,13 +161,13 @@
       "Backend": "StableDiffusionCpp",
       "Environment": "cuda",
       "HostVersion": "CUDA",
-      "Version": 929,
+      "Version": 956,
       "Status": "Create",
       "IsDefault": true,
       "Variables": {},
       "Requirements": [
-        "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-929-3f8527a/cudart-sd-bin-win-cu12-x64.zip",
-        "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-929-3f8527a/sd-master-3f8527a-bin-win-cuda12-x64.zip"
+        "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-956-1b0ba10/cudart-sd-bin-win-cu12-x64.zip",
+        "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-956-1b0ba10/sd-master-1b0ba10-bin-win-cuda12-x64.zip"
       ]
     },
     {
@@ -178,12 +178,11 @@
       "Backend": "StableDiffusionCpp",
       "Environment": "rocm",
       "HostVersion": "ROCM",
-      "Version": 929,
+      "Version": 956,
       "Status": "Create",
       "Variables": {},
       "Requirements": [
-        "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-929-3f8527a/sd-master-3f8527a-bin-win-rocm-7.14.0-x64.zip",
-        "https://repo.amd.com/rocm/tarball-multi-arch/therock-dist-windows-multiarch-7.14.0.tar.gz"
+        "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-956-1b0ba10/sd-master-1b0ba10-bin-win-rocm-10.1.0-x64.zip"
       ]
     }
   ],
@@ -15766,6 +15765,151 @@
         }
       ],
       "Link": "https://huggingface.co/realrebelai/SenseNova-U1.5-8B_GGUFs"
+    },
+    {
+      "Id": 700,
+      "Backend": "StableDiffusionCpp",
+      "Name": "Iris",
+      "Template": "Iris_Base",
+      "Pipeline": "IrisPipeline",
+      "ModelType": "Base",
+      "BaseType": "bfloat16",
+      "MediaType": "Image",
+      "ProcessTypes": [ "TextToImage" ],
+      "Checkpoint": {
+        "TextEncoder": {
+          "Name": "TextEncoder",
+          "Type": "Component",
+          "Path": "TE_Qwen3_4B_VL_GGUF"
+        },
+        "Transformer": {
+          "Name": "Transformer",
+          "Type": "OnlineFolder",
+          "Folder": "iris-3b",
+          "MainFile": "model.safetensors",
+          "DownloadFiles": [
+            "https://huggingface.co/speridlabs/iris-3b/resolve/main/model.safetensors"
+          ]
+        }
+      },
+      "MemoryProfile": [
+        {
+          "QualityMode": "Draft",
+          "MemoryModes": [ 8, 12, 12 ]
+        },
+        {
+          "QualityMode": "Standard",
+          "MemoryModes": [ 8, 14, 20 ]
+        },
+        {
+          "QualityMode": "Production",
+          "MemoryModes": [ 8, 16, 36 ]
+        }
+      ],
+      "DefaultOptions": {
+        "Steps": 30,
+        "Width": 1024,
+        "Height": 1024,
+        "GuidanceScale": 3,
+        "Scheduler": "Euler",
+        "Schedulers": [
+          {
+            "Scheduler": "Euler"
+          },
+          {
+            "Scheduler": "EulerAncestral"
+          },
+          {
+            "Scheduler": "DPM2"
+          },
+          {
+            "Scheduler": "DPMPlusPlus2SAncestral"
+          },
+          {
+            "Scheduler": "DPMPlusPlus2M"
+          },
+          {
+            "Scheduler": "DPMPlusPlus2Mv2"
+          },
+          {
+            "Scheduler": "DPMPlusPlus2MSDE"
+          },
+          {
+            "Scheduler": "DPMPlusPlus2MSDEBT"
+          },
+          {
+            "Scheduler": "ResidualMultistep"
+          },
+          {
+            "Scheduler": "Residual2S"
+          },
+          {
+            "Scheduler": "Heun"
+          },
+          {
+            "Scheduler": "IPNDM"
+          },
+          {
+            "Scheduler": "LCM"
+          },
+          {
+            "Scheduler": "DDIM"
+          },
+          {
+            "Scheduler": "TCD"
+          },
+          {
+            "Scheduler": "LMS"
+          },
+          {
+            "Scheduler": "ERSDE"
+          }
+        ]
+      },
+      "Resolutions": [
+        {
+          "Width": 640,
+          "Height": 1536
+        },
+        {
+          "Width": 768,
+          "Height": 1344
+        },
+        {
+          "Width": 832,
+          "Height": 1280
+        },
+        {
+          "Width": 896,
+          "Height": 1152
+        },
+        {
+          "Width": 768,
+          "Height": 768
+        },
+        {
+          "Width": 1024,
+          "Height": 1024,
+          "IsDefault": true
+        },
+        {
+          "Width": 1152,
+          "Height": 896
+        },
+        {
+          "Width": 1280,
+          "Height": 832
+        },
+        {
+          "Width": 1344,
+          "Height": 768
+        },
+        {
+          "Width": 1536,
+          "Height": 640
+        }
+      ],
+      "Link": "https://huggingface.co/speridlabs/iris-3b"
     }
   ],
   "LoraAdapterModels": [
@@ -17848,7 +17992,7 @@
             "https://huggingface.co/Qwen/Qwen3.5-27B/resolve/main/model.safetensors-00009-of-00011.safetensors",
             "https://huggingface.co/Qwen/Qwen3.5-27B/resolve/main/model.safetensors-00010-of-00011.safetensors",
             "https://huggingface.co/Qwen/Qwen3.5-27B/resolve/main/model.safetensors-00011-of-00011.safetensors",
-            "https://huggingface.co/Qwen/Qwen3.5-27B/resolve/main/model.safetensors.safetensors.index.json",
+            "https://huggingface.co/Qwen/Qwen3.5-27B/resolve/main/model.safetensors.index.json",
             "https://huggingface.co/Qwen/Qwen3.5-27B/resolve/main/preprocessor_config.json",
             "https://huggingface.co/Qwen/Qwen3.5-27B/resolve/main/tokenizer.json",
             "https://huggingface.co/Qwen/Qwen3.5-27B/resolve/main/tokenizer_config.json",

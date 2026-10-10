@@ -177,7 +177,15 @@ namespace Amuse.Host.StableDiffusionCpp
                     ControlNetPath = pipelineOptions.ControlNet?.Path
                 };
             }
-            if (pipelineOptions.Pipeline == PipelineType.HiDreamPipeline 
+            if (pipelineOptions.Pipeline == PipelineType.IrisPipeline)
+            {
+                return contextOptions with
+                {
+                    LlmPath = pipelineOptions.CheckpointConfig.TextEncoder,
+                    DiffusionModelPath = pipelineOptions.CheckpointConfig.Transformer,
+                };
+            }
+            if (pipelineOptions.Pipeline == PipelineType.HiDreamPipeline
              || pipelineOptions.Pipeline == PipelineType.SenseNovaPipeline)
             {
                 return contextOptions with
